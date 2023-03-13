@@ -1,10 +1,9 @@
-import Message from "./Message";
+import ListGroup from "./components/ListGroup";
 
 function App() {
-  const name = "Mosh";
   return (
     <div>
-      <Message />
+      <ListGroup />
     </div>
   );
 }
