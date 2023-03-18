@@ -1,6 +1,7 @@
 import { useState } from "react";
 // import styles from "./ListGroup.module.css";
 import styled from "styled-components";
+import { AiOutlineHeart } from "react-icons/ai";
 
 const List = styled.ul`
   list-style: none;
@@ -46,6 +47,7 @@ function ListGroup({ items, heading, onSelectItem }: Props) {
             }}
           >
             {item}
+            <AiOutlineHeart color="red" />
           </ListItem>
         ))}
       </List>
